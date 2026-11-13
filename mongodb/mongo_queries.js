@@ -96,3 +96,4 @@ db.events.aggregate([
     $sort: { high_severity_count: -1 }
   }
 ]);
+

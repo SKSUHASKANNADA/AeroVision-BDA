@@ -32,3 +32,4 @@ for line in sys.stdin:
 if current_zone:
     avg_time = total_time / count
     print(f"{current_zone}\t{count}\t{avg_time:.4f}")
+

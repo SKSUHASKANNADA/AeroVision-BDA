@@ -12,3 +12,4 @@ END {
   for (k in s)
     printf "%s\t%d\t%.4f\n", k, n[k], s[k]/n[k]
 }'
+

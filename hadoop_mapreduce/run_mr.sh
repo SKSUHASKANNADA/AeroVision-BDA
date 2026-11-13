@@ -25,3 +25,4 @@ hdfs dfs -ls /user/suhas/aerovision_output
 echo ""
 echo "=== Aggregated Zone Telemetry Results (part-00000) ==="
 hdfs dfs -cat /user/suhas/aerovision_output/part-00000 | sort
+

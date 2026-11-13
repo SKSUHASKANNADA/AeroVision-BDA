@@ -41,3 +41,4 @@ cat /tmp/aerovision_events.csv | /tmp/mapper.sh | sort | /tmp/reducer.sh | sort
 # 7. Retrieve Summary and Cleanup
 hdfs dfs -get /user/suhas/aerovision_output/part-00000 /tmp/zone_summary.txt
 cat /tmp/zone_summary.txt
+

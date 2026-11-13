@@ -16,3 +16,4 @@ for line in sys.stdin:
             print(f"{zone}\t{response_time}")
         except ValueError:
             continue
+
